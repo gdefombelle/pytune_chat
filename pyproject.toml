@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pytune_chat"
+version = "0.1.0"
+description = "Conversation context store and agent orchestration for PyTune"
+authors = ["Gabriel <gabriel.de;fombelle@gmail.com>"]
+packages = [{ include = "pytune_chat" }]
+
+[tool.poetry.dependencies]
+python = "^3.12.3"
+tortoise-orm = "^0.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
